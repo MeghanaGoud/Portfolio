@@ -1,0 +1,168 @@
+ body{
+	font-family: Roboto;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.logo{
+	float: left;
+    width: 100px;
+    height: 100px;
+}
+.title{
+	float: right;
+	text-transform: uppercase;
+	color: #2d3c49;
+}
+.title h1, .work h2{
+	font-weight: normal;
+	font-family: 'Roboto', sans-serif;
+}
+.title h1{
+	margin: 0px;
+	font-size: 60px;
+}
+.title p{
+	float: right;
+	margin: 0px 0px 20px;
+}
+.header{
+	margin: 20px 0px;
+	overflow: auto;
+	border-bottom: 4px solid #7d97ad;
+}
+.main-page img{
+	width: 100%;
+}
+.description{
+	position: absolute;
+	top: 250px;
+	width: 300px;
+	left: 0px;
+	right: 0px;
+	margin-right: auto;	/*to place it in middle*/
+	margin-left: auto;
+	text-align: center;
+	color: white;
+}
+.description a{
+	background-color: #7D97AD;
+    padding: 8px 20px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.description h1{
+	font-size: 33px;
+    font-weight: normal;
+    color: #02B3E4;
+}
+.description p{
+	font-size: 20px;
+}
+.projects{
+	display: flex;
+}
+.work h1{
+	font-size: 30px;
+	color: #7d97ad;
+}
+.projects figure{
+	width: 33.33%;
+	margin: 0px 20px 20px 0px;
+	color: #2d3c49;
+}
+figure h3{ 
+	font-size: 25px; 
+	margin: 10px 0px;
+	text-align: center;
+	font-weight: normal;
+}
+figure p{
+	line-height: 25px;
+    font-size: 15px;
+    text-align: justify;
+}
+figure a{
+	font-size: 15px;
+    color: #7D97FB;
+    text-decoration: none;
+}
+.projects figure:last-child{
+	margin: 0px 
+}
+.projects img{
+	width: 100%;
+}
+.skill-des{
+	display: flex;
+}
+.skill-set{
+	margin-right: 20px
+}
+.skills h1, .exp h2, .contact h1{
+	margin: 0px;
+    font-size: 30px;
+    font-weight: normal;
+    color: #7d97ad;
+}
+.skills h3, ul li, .exp p{
+	font-weight: normal;
+	color: #2d3c49
+}
+.contact ul li{
+	list-style: none;	
+	padding: 5px 0px;
+}
+.contact ul {
+	padding: 0px;
+}
+.contact ul li i{
+	color: #7d97ad;
+	padding: 0px 5px;
+}
+@media screen and (min-width: 320px) and (max-width: 768px){
+	.title h1{
+		font-size: 45px;
+	}
+	.projects figure{
+		width: 100%;
+	}
+	.projects{
+		display: block;
+	}
+	.description{
+		top: 280px;
+	}
+}
+@media screen and (min-width: 400px) and (max-width: 780px){
+	.description{
+		top: 250px;
+	}
+}
+@media screen and (min-width: 320px) and (max-width:570px ){
+	.title h1{
+		font-size: 40px;
+	}
+	.logo, .title p{
+		float: none!important;
+	}
+	.logo{
+		margin: 0 auto;
+	}
+	.header{
+		text-align: center;
+	}
+	.description h1, p{
+		margin: 10px 0px;
+	}
+	.description h1{
+		font-size: 25px;
+	}
+	.description a{
+		margin-top: 5px;
+		padding: 7px 15px;	
+	}
+}
