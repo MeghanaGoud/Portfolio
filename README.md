@@ -9,7 +9,7 @@ Start the html file with DOCTYPE HTML and html tags as given below
 ```
 <!DOCTYPE html>
 ```
-For every opening tag there should be closing tag. And html file starts with the html tag `<html>….</html>` wat ever our html content it should be under these two html tags. `<head>….</head>` this tag includes the title and other references in `<link>` if we want to embedd the font family or any other url links we will embedd them in the head tag, as we are writing our html file in English it is advised to keep `lang=”en”` in the html tag.
+For every opening tag there should be closing tag. And html file starts with the html tag `<html>….</html>` what ever our html content it should be under these two html tags. `<head>….</head>` this tag includes the title and other references in `<link>` if we want to embedd the font family or any other url links we will embedd them in the head tag, as we are writing our html file in English it is advised to keep `lang=”en”` in the html tag.
 ```
 <html lang=”en”> 
 ```
