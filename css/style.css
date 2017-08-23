@@ -34,6 +34,7 @@
 }
 .main-page img{
 	width: 100%;
+	opacity:0.7;
 }
 .description{
 	position: absolute;
@@ -45,6 +46,7 @@
 	margin-left: auto;
 	text-align: center;
 	color: white;
+	z-index:1;
 }
 .description a{
 	background-color: #7D97AD;
