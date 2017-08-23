@@ -50,7 +50,7 @@ body{
 
 .main-page img{
 	width: 100%;
-	opacity:0.7;
+	opacity: 0.7;
 }
 
 
@@ -64,24 +64,24 @@ body{
 	margin-left: auto;
 	text-align: center;
 	color: white;
-	z-index:1;
+	z-index: 1;
 }
 
 
 .description a{
 	background-color: #7D97AD;
-    	padding: 8px 20px;
-    	border: none;
-    	color: white;
-   	text-decoration: none;
-    	border-radius: 4px;
+    padding: 8px 20px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
 }
 
 
 .description h1{
 	font-size: 33px;
-    	font-weight: normal;
-    	color: #02B3E4;
+    font-weight: normal;
+    color: #02B3E4;
 }
 
 
@@ -102,7 +102,7 @@ body{
 
 
 .projects article{
-	flex:1;
+	flex: 1;
 	margin: 0px 20px 20px 0px;
 	color: #2d3c49;
 }
@@ -118,15 +118,15 @@ article h3{
 
 article p{
 	line-height: 25px;
-    	font-size: 15px;
-    	text-align: justify;
+    font-size: 15px;
+    text-align: justify;
 }
 
 
 article a{
 	font-size: 15px;
-    	color: #7D97FB;
-    	text-decoration: none;
+    color: #7D97FB;
+    text-decoration: none;
 }
 
 
@@ -181,71 +181,73 @@ article a{
 }
 
 
-@media screen and (min-width: 320px) and (max-width: 768px)
-{
+@media screen and (min-width: 320px) and (max-width: 768px){
 	.title h1{
 		font-size: 45px;
 	}
-	
-	
+
+
 	.projects{
 		display: block;
 	}
-	
-	
+
+
 	.projects article{
 		margin: 0px;
 	}
-	
-	
+
 	.description{
 		top: 280px;
 	}
 }
 
 
-@media screen and (min-width: 400px) and (max-width: 780px)
-{
+@media screen and (min-width: 400px) and (max-width: 780px){
 	.description{
 		top: 250px;
 	}
 }
 
 
-@media screen and (min-width: 320px) and (max-width:570px )
-{
+@media screen and (min-width: 320px) and (max-width:570px ){
 	.title h1{
 		font-size: 40px;
 	}
-	
-	
+
+
 	.logo, .title p{
 		float: none!important;
 	}
-	
-	
+
+
 	.logo{
 		margin: 0 auto;
 	}
-	
-	
+
+
 	.header{
 		text-align: center;
 	}
-	
-	
+
+
 	.description h1, p{
 		margin: 10px 0px;
 	}
-	
-	
+
+
 	.description h1{
 		font-size: 25px;
 	}
-	
-	
+
+
 	.description a{
 		margin-top: 5px;
 		padding: 7px 15px;	
 	}
 }
+
+
+
+
+
+ 
