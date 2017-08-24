@@ -92,6 +92,8 @@ body{
 
 .projects{
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 
@@ -102,8 +104,7 @@ body{
 
 
 .projects article{
-	flex: 1;
-	margin: 0px 20px 20px 0px;
+	flex: 0 1 31.5%;
 	color: #2d3c49;
 }
 
@@ -127,11 +128,6 @@ article a{
 	font-size: 15px;
     color: #7D97FB;
     text-decoration: none;
-}
-
-
-.last{
-	margin: 0px 
 }
 
 
@@ -181,20 +177,26 @@ article a{
 }
 
 
+@media screen and (max-width: 450px)
+{
+	.projects article{
+		flex:0 1 98%;
+	}
+}
+
+
+@media screen and (min-width: 450px) and (max-width: 800px){
+	.projects article{
+		flex: 0 1 48%;
+	}
+}
+
+
 @media screen and (min-width: 320px) and (max-width: 768px){
 	.title h1{
 		font-size: 45px;
 	}
 
-
-	.projects{
-		display: block;
-	}
-
-
-	.projects article{
-		margin: 0px;
-	}
 
 	.description{
 		top: 280px;
@@ -245,6 +247,15 @@ article a{
 		padding: 7px 15px;	
 	}
 }
+
+
+
+
+
+
+
+
+
 
 
 
