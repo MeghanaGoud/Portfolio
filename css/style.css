@@ -11,8 +11,8 @@ body{
 
 .logo{
 	float: left;
-    width: 100px;
-    height: 100px;
+    	width: 100px;
+    	height: 100px;
 }
 
 
@@ -70,18 +70,18 @@ body{
 
 .description a{
 	background-color: #7D97AD;
-    padding: 8px 20px;
-    border: none;
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
+    	padding: 8px 20px;
+    	border: none;
+    	color: white;
+    	text-decoration: none;
+    	border-radius: 4px;
 }
 
 
 .description h1{
 	font-size: 33px;
-    font-weight: normal;
-    color: #02B3E4;
+    	font-weight: normal;
+    	color: #02B3E4;
 }
 
 
@@ -119,15 +119,15 @@ article h3{
 
 article p{
 	line-height: 25px;
-    font-size: 15px;
-    text-align: justify;
+    	font-size: 15px;
+    	text-align: justify;
 }
 
 
 article a{
 	font-size: 15px;
-    color: #7D97FB;
-    text-decoration: none;
+    	color: #7D97FB;
+    	text-decoration: none;
 }
 
 
@@ -148,9 +148,9 @@ article a{
 
 .skills h1, .exp h2, .contact h1{
 	margin: 0px;
-    font-size: 30px;
-    font-weight: normal;
-    color: #7d97ad;
+    	font-size: 30px;
+    	font-weight: normal;
+    	color: #7d97ad;
 }
 
 
